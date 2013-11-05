@@ -1,0 +1,6 @@
+def qualifica(nota, msg="obrigado")
+    puts "a nota do restaurante foi #{nota} . #{msg}"
+end
+
+qualifica(10)
+qualifica(1, "Comida ruim")
